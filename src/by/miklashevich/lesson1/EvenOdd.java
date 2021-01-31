@@ -3,7 +3,7 @@ package by.miklashevich.lesson1;
 public class EvenOdd {
     public static void main(String[] args) {
         int n;
-        n = 98887;
+        n = 87;
 
         if (n/100>=1 & n/100<=9) {
             System.out.println(n + " Трехзначное число");
@@ -17,7 +17,7 @@ public class EvenOdd {
             System.out.println(n+" - Нечетное число");
         }
 
-        if(n%10!=0) {
+        if(n%10==7) {
             System.out.println(n+" - последнее число 7");
         } else {
             System.out.println(n+" - последнее число не 7");
