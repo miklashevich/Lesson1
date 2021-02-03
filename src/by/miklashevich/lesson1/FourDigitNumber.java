@@ -2,7 +2,8 @@ package by.miklashevich.lesson1;
 
 public class FourDigitNumber {
     public static void main(String[] args) {
-        int abcd = 3323;
+        int abcd = 1231
+                ;
         int d = abcd % 10;
 
         int abc = abcd / 10;
