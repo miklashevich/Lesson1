@@ -3,11 +3,30 @@ package by.miklashevich.lesson1;
 public class NumberPrinter {
 
     public static void main(String[] args) {
-        int x = 9876;
 
-        System.out.println((x %100-((x % 100/10)*10))*1000+((x % 100/10)*100)+((x % 1000/100)*10)+(x/1000));
+        int abcd = 9876;
+        int d = abcd % 10;
 
+        int abc = abcd / 10;
+        int c = abc % 10;
 
+        int ab = abc / 10;
+        int b = ab % 10;
+
+        int a = ab / 10;
+
+        System.out.println(d);
+        System.out.println(c);
+        System.out.println(b);
+        System.out.println(a);
 
 }
+
+
+
+
+
+
+
+
 }
