@@ -1,5 +1,5 @@
 package by.miklashevich.lesson3;
-public class Task3 {
+public class task3 {
     public static void main(String[] args) {
         int total = 0;
         int result = 0;
